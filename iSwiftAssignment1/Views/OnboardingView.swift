@@ -31,8 +31,6 @@ struct OnboardingView: View {
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                 .animation(.smooth, value: selectedTab)
                 
-                
-                
                 CustomDotIndicator(count: tabs.count, selectedTab: $selectedTab)
                     
             }
